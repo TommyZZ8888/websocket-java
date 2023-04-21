@@ -1,6 +1,7 @@
 package com.zz.websocket.domain;
 
 
+import com.zz.websocket.enums.MessageType;
 
 /**
  * @Description ChatMessage
@@ -13,11 +14,6 @@ public class ChatMessage {
     private String content;
     private String sender;
 
-    public enum MessageType {
-        CHAT,
-        JOIN,
-        LEAVE
-    }
 
     public MessageType getType() {
         return type;
