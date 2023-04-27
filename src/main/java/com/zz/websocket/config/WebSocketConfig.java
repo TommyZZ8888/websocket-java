@@ -18,8 +18,8 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 
 
     /**
-     * 注册websocket端点，客户端将使用它连接到我们的websocket服务器
-     * withSockJS（）是用来为不支持websocket浏览器的后备选项，使用了sockJS
+     *  注册websocket端点，客户端将使用它连接到我们的websocket服务器
+     *  withSockJS（）是用来为不支持websocket浏览器的后备选项，使用了sockJS
      *  STOMP代表简单文本导向的消息传递协议
      *  WebSocket只是一种通信协议。它没有定义诸如以下内容：如何仅向订阅特定主题的用户发送消息，或者如何向特定用户发送消息。
      *  我们需要STOMP来实现这些功能

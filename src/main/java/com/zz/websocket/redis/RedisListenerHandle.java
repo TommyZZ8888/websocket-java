@@ -7,7 +7,6 @@ import com.zz.websocket.utils.JsonUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.redis.connection.Message;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.listener.adapter.MessageListenerAdapter;
@@ -15,7 +14,6 @@ import org.springframework.data.redis.serializer.SerializationException;
 import org.springframework.stereotype.Component;
 
 import java.util.Objects;
-import java.util.Optional;
 
 /**
  * @Description redis订阅频道处理类
